@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereal Fish Scene - AnimTheme</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <!-- The Three.js canvas will be added here by our script -->
+
+    <!-- This 'importmap' tells the browser where to find the Three.js module -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <!-- This loads our main JavaScript file as a module -->
+    <script type="module" src="/src/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* A simple CSS reset to remove default browser margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure the canvas fills the whole screen and hide any scrollbars */
+html, body {
+  overflow: hidden;
+  background-color: #000; /* Set a black background for a seamless look */
+}
+
+/* The canvas element that Three.js will create */
+canvas {
+  display: block; /* Removes any extra space that might appear below the canvas */
+}
